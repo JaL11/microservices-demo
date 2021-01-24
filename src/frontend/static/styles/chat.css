@@ -1,0 +1,74 @@
+/**
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+ .chat {
+     background-color: #ffffff;
+ }
+
+ .chat-box {
+    background-color: #00ff0d;
+    width: 500px;
+    height: 250px;
+    position: relative;
+}
+
+.message-box {
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+    width: 100%;
+    height: 200px;
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.input-box {
+    background-color: #ffffff;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.message-bubble {
+    border-radius: 5px;
+    max-width: 60%;
+    padding: 5px;
+    margin-top: 10px;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.message-bubble-user {
+    background-color: #ffffff;
+    float: right;
+}
+
+.message-bubble-bot {
+    background-color: #4cc8c6;
+    float: left;
+}
+
+.message-input {
+    float: left;
+    padding: 5px;
+    border: 1px solid #ced4da;
+}
+
+.message-send-button {
+    float: right;
+}
