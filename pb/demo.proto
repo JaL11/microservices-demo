@@ -258,3 +258,19 @@ message Ad {
     // short advertisement text to display.
     string text = 2;
 }
+
+// ------------Chatbot service------------------
+
+service ChatbotService {
+  rpc getChatbotMessage(chatbotRequest) returns (chatbotResponse){}
+}
+
+message chatbotRequest {
+    string message = 1;
+    string user_id = 2;
+}
+
+message chatbotResponse {
+    string message = 1;
+    repeated string product_ids = 2; 
+}
