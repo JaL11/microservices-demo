@@ -28,9 +28,9 @@ spec:
             command: ["/bin/grpc_health_probe", "-addr=:9090"]
         env:
         - name: PORT
-          value: "9090"
-        - name: PRODUCT_CATALOG_SERVICE_ADDR
-          value: "productcatalogservice:3550"
+          value: "8080"
+        - name: RECOMMENDATION_SERVICE_ADDR
+          value: "recommendationservice:8080"
         # - name: DISABLE_TRACING
         #   value: "1"
         # - name: DISABLE_PROFILER

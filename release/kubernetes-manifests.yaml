@@ -742,7 +742,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: gcr.io/google-samples/microservices-demo/chatbotservice:v0.2.1
+        image: github.com/JaL11/micromicroservice_CSE_WS20
         ports:
         - containerPort: 9090
         readinessProbe:
