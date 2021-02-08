@@ -80,6 +80,16 @@ func (fe *frontendServer) chatHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func (fe *frontendServer) chatMessageHandler(w http.ResponseWriter, r *http.Request) {
+	// log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
+	// userMessage := r.FormValue("user_message")
+
+	// call chatbot microservice here
+	chatbotResponse := "Hello world"
+
+	fmt.Fprintf(w, chatbotResponse)
+}
+
 func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
 	log.WithField("currency", currentCurrency(r)).Info("home")
