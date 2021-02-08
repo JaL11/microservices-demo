@@ -81,13 +81,17 @@ func (fe *frontendServer) chatHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func (fe *frontendServer) chatMessageHandler(w http.ResponseWriter, r *http.Request) {
-	// log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
-	// userMessage := r.FormValue("user_message")
+	log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
+	userMessage := r.FormValue("user_message")
 
 	// call chatbot microservice here
-	chatbotResponse := "Hello world"
+	chatbotResponse, err := fe.getChatbotResponse(r.Context(), sessionID(r), userMessage)
+	if err != nil {
+		renderHTTPError(log, r, w, errors.Wrap(err, "could not get chatbot reponse"), http.StatusInternalServerError)
+		return
+	}
 
-	fmt.Fprintf(w, chatbotResponse)
+	fmt.Fprintf(w, chatbotResponse.Message)
 }
 
 func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
