@@ -61,6 +61,9 @@ type frontendServer struct {
 	productCatalogSvcAddr string
 	productCatalogSvcConn *grpc.ClientConn
 
+	chatbotSvcAddr string
+	chatbotSvcConn *grpc.ClientConn
+
 	currencySvcAddr string
 	currencySvcConn *grpc.ClientConn
 
@@ -115,6 +118,7 @@ func main() {
 	addr := os.Getenv("LISTEN_ADDR")
 	svc := new(frontendServer)
 	mustMapEnv(&svc.productCatalogSvcAddr, "PRODUCT_CATALOG_SERVICE_ADDR")
+	mustMapEnv(&svc.chatbotSvcAddr, "CHATBOT_SERVICE_ADDR")
 	mustMapEnv(&svc.currencySvcAddr, "CURRENCY_SERVICE_ADDR")
 	mustMapEnv(&svc.cartSvcAddr, "CART_SERVICE_ADDR")
 	mustMapEnv(&svc.recommendationSvcAddr, "RECOMMENDATION_SERVICE_ADDR")
@@ -122,6 +126,7 @@ func main() {
 	mustMapEnv(&svc.shippingSvcAddr, "SHIPPING_SERVICE_ADDR")
 	mustMapEnv(&svc.adSvcAddr, "AD_SERVICE_ADDR")
 
+	mustConnGRPC(ctx, &svc.chatbotSvcConn, svc.chatbotSvcAddr)
 	mustConnGRPC(ctx, &svc.currencySvcConn, svc.currencySvcAddr)
 	mustConnGRPC(ctx, &svc.productCatalogSvcConn, svc.productCatalogSvcAddr)
 	mustConnGRPC(ctx, &svc.cartSvcConn, svc.cartSvcAddr)
@@ -133,6 +138,7 @@ func main() {
 	r := mux.NewRouter()
 	r.HandleFunc("/", svc.homeHandler).Methods(http.MethodGet, http.MethodHead)
 	r.HandleFunc("/chat", svc.chatHandler).Methods(http.MethodGet, http.MethodHead)
+	r.HandleFunc("/chat/sendMessage", svc.chatMessageHandler).Methods(http.MethodPost)
 	r.HandleFunc("/product/{id}", svc.productHandler).Methods(http.MethodGet, http.MethodHead)
 	r.HandleFunc("/cart", svc.viewCartHandler).Methods(http.MethodGet, http.MethodHead)
 	r.HandleFunc("/cart", svc.addToCartHandler).Methods(http.MethodPost)
