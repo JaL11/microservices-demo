@@ -1,3 +1,10 @@
 setuptools
 wheel
 spacy
+matplotlib
+psutil
+grpcio-tools
+prometheus_client
+logger
+python-json-logger
+
