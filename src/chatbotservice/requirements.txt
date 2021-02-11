@@ -5,4 +5,4 @@ matplotlib
 psutil
 grpcio-tools
 prometheus_client
-spacy-transformers
+spacy-transformers == 0.6.2
