@@ -1,3 +1,7 @@
 setuptools
 wheel
-spacy
+spacy==2.3.5
+matplotlib
+psutil
+grpcio-tools
+prometheus_client
