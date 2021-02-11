@@ -5,4 +5,5 @@ matplotlib
 psutil
 grpcio-tools
 prometheus_client
+spacy-transformers
 
