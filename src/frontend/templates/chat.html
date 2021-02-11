@@ -1,0 +1,56 @@
+<!--
+ Copyright 2020 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+{{ define "chat" }}
+
+{{ template "header" . }}
+<div {{ with $.platform_css }} class="{{.}}" {{ end }}>
+    <span class="platform-flag">
+        {{$.platform_name}}
+    </span>
+</div>
+<main class="chat" role="main">
+    <div class="chat-bg">
+        <div class="container py-3 px-lg-5 py-lg-5">
+            <h3>Chat with our support bot!</h3>
+            <p>Try and ask for product recommendations.</p>
+        </div>
+        <div class="chat-page-content">
+            <div class="container">
+                <div class="chat-box">
+                    <div class="message-box-border">
+                        <div class="message-box">
+                            <div class="message-bubble message-bubble-bot">Welcome! How can I help you?</div>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <input id="message-input-field" class="form-control message-form" type="text"
+                            placeholder="Type your message here">
+                        <button class="btn btn-info message-send-button" type="submit"
+                            onclick="sendMessage()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</main>
+
+{{ template "footer" . }}
+
+{{ end }}

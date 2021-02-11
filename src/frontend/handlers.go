@@ -46,6 +46,54 @@ var (
 	plat platformDetails
 )
 
+func (fe *frontendServer) chatHandler(w http.ResponseWriter, r *http.Request) {
+	log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
+	log.WithField("currency", currentCurrency(r)).Info("home")
+	currencies, err := fe.getCurrencies(r.Context())
+	if err != nil {
+		renderHTTPError(log, r, w, errors.Wrap(err, "could not retrieve currencies"), http.StatusInternalServerError)
+		return
+	}
+	cart, err := fe.getCart(r.Context(), sessionID(r))
+	if err != nil {
+		renderHTTPError(log, r, w, errors.Wrap(err, "could not retrieve cart"), http.StatusInternalServerError)
+		return
+	}
+
+	//get env and render correct platform banner.
+	var env = os.Getenv("ENV_PLATFORM")
+	plat = platformDetails{}
+	plat.setPlatformDetails(strings.ToLower(env))
+
+	if err := templates.ExecuteTemplate(w, "chat", map[string]interface{}{
+		"session_id":    sessionID(r),
+		"request_id":    r.Context().Value(ctxKeyRequestID{}),
+		"user_currency": currentCurrency(r),
+		"show_currency": true,
+		"currencies":    currencies,
+		"cart_size":     cartSize(cart),
+		"banner_color":  os.Getenv("BANNER_COLOR"), // illustrates canary deployments
+		"platform_css":  plat.css,
+		"platform_name": plat.provider,
+	}); err != nil {
+		log.Error(err)
+	}
+}
+
+func (fe *frontendServer) chatMessageHandler(w http.ResponseWriter, r *http.Request) {
+	log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
+	userMessage := r.FormValue("user_message")
+
+	// call chatbot microservice here
+	chatbotResponse, err := fe.getChatbotResponse(r.Context(), sessionID(r), userMessage)
+	if err != nil {
+		renderHTTPError(log, r, w, errors.Wrap(err, "could not get chatbot reponse"), http.StatusInternalServerError)
+		return
+	}
+
+	fmt.Fprintf(w, chatbotResponse.Message)
+}
+
 func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
 	log.WithField("currency", currentCurrency(r)).Info("home")

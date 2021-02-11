@@ -74,6 +74,14 @@ func (fe *frontendServer) insertCart(ctx context.Context, userID, productID stri
 	return err
 }
 
+func (fe *frontendServer) getChatbotResponse(ctx context.Context, userID, userMessage string) (*pb.ChatbotResponse, error) {
+	resp, err := pb.NewChatbotServiceClient(fe.chatbotSvcConn).GetChatbotMessage(ctx, &pb.ChatbotRequest{
+		Message: userMessage,
+		UserId:  userID,
+	})
+	return resp, err
+}
+
 func (fe *frontendServer) convertCurrency(ctx context.Context, money *pb.Money, currency string) (*pb.Money, error) {
 	if avoidNoopCurrencyConversionRPC && money.GetCurrencyCode() == currency {
 		return money, nil
