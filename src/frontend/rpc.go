@@ -74,12 +74,12 @@ func (fe *frontendServer) insertCart(ctx context.Context, userID, productID stri
 	return err
 }
 
-func (fe *frontendServer) getChatbotResponse(ctx context.Context, userID, userMessage string) (*pb.ChatbotResponse, error) {
+func (fe *frontendServer) getChatbotResponse(ctx context.Context, userID, userMessage string) (string, error) {
 	resp, err := pb.NewChatbotServiceClient(fe.chatbotSvcConn).GetChatbotMessage(ctx, &pb.ChatbotRequest{
 		Message: userMessage,
 		UserId:  userID,
 	})
-	return resp, err
+	return resp.GetMessage(), err
 }
 
 func (fe *frontendServer) convertCurrency(ctx context.Context, money *pb.Money, currency string) (*pb.Money, error) {

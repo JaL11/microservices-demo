@@ -272,5 +272,4 @@ message chatbotRequest {
 
 message chatbotResponse {
     string message = 1;
-    repeated string product_ids = 2; 
 }
