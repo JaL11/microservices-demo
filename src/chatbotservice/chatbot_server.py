@@ -20,7 +20,7 @@ Copyright (c) 2021 Wise CSE Group 1
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
+import os, logging
 import random
 import time
 import traceback
@@ -36,7 +36,6 @@ import demo_pb2
 import demo_pb2_grpc
 
 
-from logger import getJSONLogger
 chatbot = MetaEngine()
 
 
@@ -47,11 +46,14 @@ class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
         return response
 
 if __name__ == "__main__":
-    logger = getJSONLogger('recommendationservice-server')
+    logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
+                        filename='logs.txt',
+                        datefmt='%d/%m/%Y %I:%M:%S %p',
+                        filemode='w', level=logging.DEBUG)
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     demo_pb2_grpc.add_ChatbotServiceServicer_to_server(ChatbotService(), server)
     port = "50051"
-    logger.info("listening on port: " + port)
+    logging.info("listening on port: " + port)
     server.add_insecure_port('[::]:'+port)
     server.start()
     server.wait_for_termination()
