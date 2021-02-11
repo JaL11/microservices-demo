@@ -91,7 +91,7 @@ func (fe *frontendServer) chatMessageHandler(w http.ResponseWriter, r *http.Requ
 		return
 	}
 
-	fmt.Fprintf(w, chatbotResponse.Message)
+	fmt.Fprintf(w, chatbotResponse)
 }
 
 func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
