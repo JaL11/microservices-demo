@@ -1,0 +1,9 @@
+11/02/2021 06:47:00 PM INFO:Started Meta Engine...
+11/02/2021 06:47:00 PM INFO:Started Meta Engine...
+11/02/2021 06:47:01 PM INFO:PyTorch version 1.7.1+cu110 available.
+11/02/2021 06:47:03 PM INFO:Loaded spacy model at models\onlineshop
+11/02/2021 06:47:04 PM INFO:Processed text lol in pipeline
+11/02/2021 06:47:04 PM INFO:Classifying text...
+11/02/2021 06:47:04 PM DEBUG:Found intents: {'Fun_Fact': 0.9810785055160522, 'Recommendation': 6.11881247891688e-08, 'Welcome': 0.018921298906207085}
+11/02/2021 06:47:04 PM INFO:Succesfully classified text returning intent
+11/02/2021 06:47:09 PM INFO:Found action Fun_Fact
