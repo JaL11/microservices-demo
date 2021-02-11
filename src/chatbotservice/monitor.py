@@ -4,11 +4,6 @@ Author: Ming Yeh Oliver Cheung
 
 Copyright (c) 2021 Wise CSE Group 1
 '''
-
-import matplotlib.pyplot as plt
-plt.style.use('ggplot')
-import numpy as np
-
 import psutil
 from threading import Thread
 import time
@@ -29,20 +24,17 @@ class Monitor(Thread):
         self.start()
 
     def run(self):
-
         while not self.stopped:
             current_ram, ath_ram = tracemalloc.get_traced_memory()
             current_ram = current_ram / 10**6
-            values = psutil.virtual_memory()
             self.system_usage.labels('CPU').set(psutil.cpu_percent())
-            self.system_usage.labels('Memory').set(values.total >> 20)
             self.system_usage.labels("Process_Memory").set(current_ram)
-            self.system_usage.labels("Peak_Memory").set(ath_ram)
+            self.system_usage.labels("Peak_Memory").set(ath_ram/ 10**6)
             time.sleep(self.delay)
 
     def stop(self):
         current, peak = tracemalloc.get_traced_memory()
-        print(f"Peak memory usage was {peak / 10**6}MB")
+        logging.info(f"Peak memory usage was {peak / 10**6}MB")
         tracemalloc.stop()
         self.stopped = True
 
