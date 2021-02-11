@@ -5,6 +5,7 @@ Author: Ming Yeh Oliver Cheung
 Copyright (c) 2021 Wise CSE Group 1
 '''
 import logging, random, os 
+import chatbot_client
 from nlp_engine import NlpEngine
 from monitor import Monitor
 
@@ -21,7 +22,6 @@ class MetaEngine:
                             ["Google has the largest index of websites in the world.",
                             "The original name of Google was Backrub.",
                             "The Google search technology is called PageRank."],
-                        "Recommendation": self.get_recommendations(),
                         "Welcome":
                             ["Hello there!", 
                             "Hi!",
@@ -31,9 +31,8 @@ class MetaEngine:
                         None: ["I'm sorry coulnd't quite understand you there, mind rephrasing that for me?",
                                 "Currently I'm not smart enough for that yet but I'll try my best to improve!",
                                 "I'm sorry, I didn't understand that."]}
-        self.monitor = Monitor(1)
 
-    def handle_message(self, text, user_id = "default"):
+    def handle_message(self, text, user_id = "test"):
         """ Gets classification of user input and chooses appropriate return message
 
         Args:
@@ -43,15 +42,18 @@ class MetaEngine:
             [str]: message that is randomly chosen from self.actions and send to you user
         """
         user_action = self.nlp.textcat(text)
-        messages = self.actions.get(user_action)
+        logging.info(f"Found action {user_action}")
+        if (user_action == "Recommendation"):
+            messages = get_recommendations(user_id)
+        else:
+            messages = self.actions.get(user_action)
         random.shuffle(messages)
         return messages[0]
 
-    def get_recommendations(self):
+    def get_recommendations(self, id, products = ["test"]):
         """ Gets recommendations from recommendationservice
         """
-        #TODO
-        return["shoes","camera","laptop"]    
+        return[chatbot_client.get_rec(id)]    
 
 if __name__ == "__main__":
     """For quick local testing purposes only!"""
