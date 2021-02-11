@@ -27,7 +27,7 @@ def request(text):
         stub = demo_pb2_grpc.ChatbotServiceStub(channel)
         response = stub.getChatbotMessage(demo_pb2.chatbotRequest(message=text, user_id = "2cent"))
     return response
-    
+
 def get_rec(id, products = ["test"]):
     with grpc.insecure_channel('localhost:8080') as channel:
         stub = demo_pb2_grpc.RecommendationServiceStub(channel)
@@ -35,3 +35,7 @@ def get_rec(id, products = ["test"]):
         response = stub.ListRecommendations(request)
     
     return response
+
+if __name__ == "__main__":
+    request("HI")
+    print(request("Hi"))

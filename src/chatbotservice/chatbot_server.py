@@ -27,6 +27,7 @@ import traceback
 from meta_engine import MetaEngine
 import demo_pb2_grpc
 import demo_pb2
+from monitor import Monitor
 from concurrent import futures
 
 import grpc
@@ -36,9 +37,6 @@ import demo_pb2
 import demo_pb2_grpc
 
 
-chatbot = MetaEngine()
-
-
 class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
     def getChatbotMessage(self, request, context):
         response = demo_pb2.chatbotResponse(message = "", product_ids = [""])
@@ -46,10 +44,15 @@ class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
         return response
 
 if __name__ == "__main__":
+    global chatbot
+
     logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
                         filename='logs.txt',
                         datefmt='%d/%m/%Y %I:%M:%S %p',
                         filemode='w', level=logging.DEBUG)
+    monitor = Monitor(4)
+
+    chatbot = MetaEngine()
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     demo_pb2_grpc.add_ChatbotServiceServicer_to_server(ChatbotService(), server)
     port = "50051"

@@ -31,7 +31,6 @@ class MetaEngine:
                         None: ["I'm sorry coulnd't quite understand you there, mind rephrasing that for me?",
                                 "Currently I'm not smart enough for that yet but I'll try my best to improve!",
                                 "I'm sorry, I didn't understand that."]}
-        self.monitor = Monitor(4)
 
     def handle_message(self, text, user_id = "test"):
         """ Gets classification of user input and chooses appropriate return message
@@ -43,6 +42,7 @@ class MetaEngine:
             [str]: message that is randomly chosen from self.actions and send to you user
         """
         user_action = self.nlp.textcat(text)
+        logging.info(f"Found action {user_action}")
         if (user_action == "Recommendation"):
             messages = get_recommendations(user_id)
         else:
