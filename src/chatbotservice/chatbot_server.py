@@ -23,7 +23,6 @@ Copyright (c) 2021 Wise CSE Group 1
 import os, logging
 import random
 import time
-import traceback
 from meta_engine import MetaEngine
 import demo_pb2_grpc
 import demo_pb2
@@ -59,7 +58,6 @@ if __name__ == "__main__":
     logging.info("listening on port: " + port)
     server.add_insecure_port('[::]:'+port)
     server.start()
-    server.wait_for_termination()
 
     # keep alive
     try:
