@@ -23,6 +23,8 @@ Copyright (c) 2021 Wise CSE Group 1
 import os, logging
 import random
 import time
+
+import traceback
 from meta_engine import MetaEngine
 import demo_pb2_grpc
 import demo_pb2
@@ -30,10 +32,8 @@ from monitor import Monitor
 from concurrent import futures
 
 import grpc
-
-
-import demo_pb2
-import demo_pb2_grpc
+from grpc_health.v1 import health_pb2
+from grpc_health.v1 import health_pb2_grpc
 
 
 class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
@@ -41,6 +41,16 @@ class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
         response = demo_pb2.chatbotResponse(message = "", product_ids = [""])
         response.message = chatbot.handle_message(request.message, request.user_id)
         return response
+
+#from recomendation_server.py        
+    def Check(self, request, context):
+        return health_pb2.HealthCheckResponse(
+            status=health_pb2.HealthCheckResponse.SERVING)
+
+    def Watch(self, request, context):
+        return health_pb2.HealthCheckResponse(
+            status=health_pb2.HealthCheckResponse.UNIMPLEMENTED)
+
 
 if __name__ == "__main__":
     global chatbot
@@ -51,13 +61,27 @@ if __name__ == "__main__":
                         filemode='w', level=logging.DEBUG)
     monitor = Monitor(4)
 
+
+    #server setup
     chatbot = MetaEngine()
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
-    demo_pb2_grpc.add_ChatbotServiceServicer_to_server(ChatbotService(), server)
-    port = "50051"
-    logging.info("listening on port: " + port)
+    # port = "50051"
+    port = "9090"
+    #port = os.environ.get('Port', "9090")
+    
+    
+    # add class to gRPC server
+    service = ChatbotService()
+    demo_pb2_grpc.add_ChatbotServiceServicer_to_server(service, server)
+    health_pb2_grpc.add_HealthServicer_to_server(service, server)
+
+    #start server
+    logging.info("listening on port: " +port)
     server.add_insecure_port('[::]:'+port)
     server.start()
+    #server.wait_for_termination()
+
+    
 
     # keep alive
     try:
