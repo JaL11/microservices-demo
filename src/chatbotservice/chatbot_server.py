@@ -23,6 +23,8 @@ Copyright (c) 2021 Wise CSE Group 1
 import os, logging
 import random
 import time
+
+import traceback
 from meta_engine import MetaEngine
 import demo_pb2_grpc
 import demo_pb2
@@ -33,11 +35,13 @@ import grpc
 from grpc_health.v1 import health_pb2
 from grpc_health.v1 import health_pb2_grpc
 
+
 class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
     def getChatbotMessage(self, request, context):
         response = demo_pb2.chatbotResponse(message = "", product_ids = [""])
         response.message = chatbot.handle_message(request.message, request.user_id)
         return response
+
 #from recomendation_server.py        
     def Check(self, request, context):
         return health_pb2.HealthCheckResponse(
@@ -47,6 +51,7 @@ class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
         return health_pb2.HealthCheckResponse(
             status=health_pb2.HealthCheckResponse.UNIMPLEMENTED)
 
+
 if __name__ == "__main__":
     global chatbot
 
@@ -55,6 +60,7 @@ if __name__ == "__main__":
                         datefmt='%d/%m/%Y %I:%M:%S %p',
                         filemode='w', level=logging.DEBUG)
     monitor = Monitor(4)
+
 
     #server setup
     chatbot = MetaEngine()
@@ -76,6 +82,7 @@ if __name__ == "__main__":
     #server.wait_for_termination()
 
     
+
     # keep alive
     try:
          while True:
