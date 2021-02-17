@@ -725,7 +725,6 @@ spec:
     port: 9555
     targetPort: 9555
 ---
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -771,3 +770,20 @@ spec:
           limits:
             cpu: 200m
             memory: 450Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbotservice
+spec:
+  type: ClusterIP
+  selector:
+    app: chatbotservice
+  ports:
+  - name: grpc
+    port: 9090
+    targetPort: 9090
+
+
+
+
