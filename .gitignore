@@ -12,4 +12,6 @@ pkg/
 .project
 .eclipse.buildship.core.prefs
 release/wi-kubernetes-manifests.yaml
+src/chatbotservice/models
+src/chatbotservice/logs.txt
 
