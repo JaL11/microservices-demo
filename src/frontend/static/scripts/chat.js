@@ -1,6 +1,14 @@
 const USER = 0
 const BOT = 1
 
+var inputField = document.getElementById("message-input-field");
+
+inputField.addEventListener("keyup", (e) => {
+    if (e.key == "Enter") {
+        sendMessage();
+    }
+});
+
 function addMessageToChatbox(author, message) {
     if (message == "") return;
     var messageNode = document.createElement("div");
@@ -35,11 +43,8 @@ function postMessage(message) {
 }
 
 function sendMessage() {
-    var inputField = document.getElementById("message-input-field");
     var input = inputField.value;
     inputField.value = "";
-
-    // TODO: filter user input for unallowed symbols
     addMessageToChatbox(USER, input);
-    var response = postMessage(input);
+    postMessage(input);
 }
