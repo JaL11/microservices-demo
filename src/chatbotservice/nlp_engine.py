@@ -7,9 +7,9 @@ Copyright (c) 2021 Wise CSE Group 1
 import spacy, logging
 
 class NlpEngine:
-
+    """ Loads the nlp model and uses it to classify user input
+    """
     def __init__(self, model):
-
         logging.info("Started Meta Engine...")
         self.nlp = self.load(model)
         self.doc = None

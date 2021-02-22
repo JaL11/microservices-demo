@@ -23,7 +23,15 @@ from grpc_health.v1 import health_pb2_grpc
 
 
 class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
+    """GRPC interface to access chatbot
+    """
     def getChatbotMessage(self, request, context):
+        """Gets the message from the chatbot
+        also monitors time of handling the request
+
+        Returns:
+            str: response from chatbot
+        """
         monitor.start_request()
         response = demo_pb2.chatbotResponse(message = "", product_ids = [""])
         response.message = chatbot.handle_message(request.message, request.user_id)
