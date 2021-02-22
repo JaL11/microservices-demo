@@ -113,7 +113,7 @@ spec:
           - name: CART_SERVICE_ADDR
             value: "cartservice:7070"
           - name: CHATBOT_SERVICE_ADDR
-            value: "chatbotservice:9090"
+            value: "chatbotservice:9091"
           # - name: DISABLE_STATS
           #   value: "1"
           # - name: DISABLE_TRACING
@@ -743,18 +743,18 @@ spec:
       - name: server
         image: github.com/JaL11/micromicroservice_CSE_WS20
         ports:
-        - containerPort: 9090
+        - containerPort: 9091
         readinessProbe:
           periodSeconds: 5
           exec:
-            command: ["/bin/grpc_health_probe", "-addr=:9090"]
+            command: ["/bin/grpc_health_probe", "-addr=:9091"]
         livenessProbe:
           periodSeconds: 5
           exec:
-            command: ["/bin/grpc_health_probe", "-addr=:9090"]
+            command: ["/bin/grpc_health_probe", "-addr=:9091"]
         env:
         - name: PORT
-          value: "9090"
+          value: "9091"
         # - name: PRODUCT_CATALOG_SERVICE_ADDR
         #   value: "productcatalogservice:3550"
         # - name: DISABLE_TRACING
@@ -781,8 +781,8 @@ spec:
     app: chatbotservice
   ports:
   - name: grpc
-    port: 9090
-    targetPort: 9090
+    port: 9091
+    targetPort: 9091
 
 
 

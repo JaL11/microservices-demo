@@ -17,18 +17,18 @@ spec:
       - name: server
         image: chatbotservice
         ports:
-        - containerPort: 9090
+        - containerPort: 9091
         env:
         - name: PORT
-          value: "9090"
+          value: "9091"
         readinessProbe:
           periodSeconds: 15
           exec:
-            command: ["/bin/grpc_health_probe", "-addr=:9090"]
+            command: ["/bin/grpc_health_probe", "-addr=:9091"]
         livenessProbe:
           periodSeconds: 15
           exec:
-            command: ["/bin/grpc_health_probe", "-addr=:9090"]
+            command: ["/bin/grpc_health_probe", "-addr=:9091"]
         #- name: RECOMMENDATION_SERVICE_ADDR
         #  value: "recommendationservice:8080"
         resources:
@@ -49,5 +49,5 @@ spec:
     app: chatbotservice
   ports:
   - name: grpc
-    port: 9090
-    targetPort: 9090
+    port: 9091
+    targetPort: 9091

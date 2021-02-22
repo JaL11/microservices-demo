@@ -65,7 +65,7 @@ spec:
           - name: CHECKOUT_SERVICE_ADDR
             value: "checkoutservice:5050"
           - name: CHATBOT_SERVICE_ADDR
-            value: "chatbotservice:9090"
+            value: "chatbotservice:9091"
           - name: AD_SERVICE_ADDR
             value: "adservice:9555"
           - name: ENV_PLATFORM
