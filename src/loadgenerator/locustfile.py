@@ -64,6 +64,10 @@ def checkout(l):
         'credit_card_cvv': '672',
     })
 
+def chat(l):
+    l.client.post("/chat/sendMessage/",{
+    "user_message": "Hello"})
+
 class UserBehavior(TaskSet):
 
     def on_start(self):
@@ -74,7 +78,8 @@ class UserBehavior(TaskSet):
         browseProduct: 10,
         addToCart: 2,
         viewCart: 3,
-        checkout: 1}
+        checkout: 1,
+        chat: 2}
 
 class WebsiteUser(HttpUser):
     tasks = [UserBehavior]
