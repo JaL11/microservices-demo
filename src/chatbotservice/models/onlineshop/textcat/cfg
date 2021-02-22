@@ -1,8 +1,8 @@
 {
   "exclusive_classes":true,
   "labels":[
-    "Welcome",
     "Recommend",
+    "Welcome",
     "Help",
     "Fun_Fact"
   ],

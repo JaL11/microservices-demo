@@ -23,8 +23,8 @@
   },
   "labels":{
     "textcat":[
-      "Welcome",
       "Recommend",
+      "Welcome",
       "Help",
       "Fun_Fact"
     ]

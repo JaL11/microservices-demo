@@ -95,7 +95,7 @@ class Trainer:
 
         return nlp
 
-    def train_intent(self, nlp, output_dir, n_iter = 5, dropout = 0.25):
+    def train_intent(self, nlp, output_dir, n_iter = 3, dropout = 0.25):
         """Load the model, set up the pipeline and train the entity recognizer.
         
 
