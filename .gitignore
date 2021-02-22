@@ -15,3 +15,4 @@ release/wi-kubernetes-manifests.yaml
 src/chatbotservice/models
 src/chatbotservice/logs.txt
 
+src/chatbotservice/logs.txt

@@ -2,8 +2,9 @@
   "exclusive_classes":true,
   "labels":[
     "Fun_Fact",
-    "Recommendation",
-    "Welcome"
+    "Welcome",
+    "Help",
+    "Recommend"
   ],
   "pretrained_vectors":null,
   "pretrained_dims":null

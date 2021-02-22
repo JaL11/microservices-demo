@@ -31,6 +31,11 @@ class MetaEngine:
                             "Welcome to our amazing online shop!",
                             "Beautiful day isn't it?",
                             "Feels like a perfect day for online shopping!",],
+                        "Help":
+                            ["I can recommend you items, greet you and tell you a fun fact",
+                            "Try asking for recommendation :)",
+                            "Try asking for a fun fact :)",
+                            "Try greeting me :)"],
                         None: ["I'm sorry coulnd't quite understand you there, mind rephrasing that for me?",
                                 "Currently I'm not smart enough for that yet but I'll try my best to improve!",
                                 "I'm sorry, I didn't understand that."]}
@@ -51,8 +56,12 @@ class MetaEngine:
             messages = get_recommendations(user_id)
         else:
             messages = self.actions.get(user_action)
-        random.shuffle(messages)
-        return messages[0]
+
+        try:
+            random.shuffle(messages)
+        except:
+            return str(messages)
+        return str(messages[0])
 
     def get_recommendations(self, id, products = ["test"]):
         """ Gets recommendations from recommendationservice

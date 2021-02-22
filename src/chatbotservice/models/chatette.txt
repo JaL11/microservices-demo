@@ -1,0 +1,68 @@
+// This template defines different ways to ask for the location of toilets (Chatette version)
+~[sorry]
+    sorry
+    excuse me
+    do you minds
+    be so kind
+    dear
+
+~[tell me]
+    ~[can you?] [tell|show] me
+    ~[can you?] [tell|show] me
+~[can you]
+    [can|could|would] you
+
+~[I]
+    [I?] [need|want|like] [some?]
+
+~[Hello]
+    [Hi|Hello|Hey|Heyyo|Hai|Greetings]
+
+~[Person]
+    [Person|Shop|Owner|Bro|Dude|Man|Sir|Chatbot|machine|bot]
+
+~[Waddup]
+    [How are you doing|What's up|How is it hanging|Good day to you|Good morning|Afternoon|Ahoy]
+
+~[Recommend]
+    [Recommendations|recommend|recommend me|buy|goods|gifts]
+
+~[Help]
+    [help|assist|aid]
+
+%[&Fun_Fact](200)
+    ~[sorry?] ~[tell me] [fun fact|fact] [please?]?
+    ~[sorry?] ~[tell me] [something?] interesting [please?]?
+    ~[tell me] [fun fact|fact]
+    ~[tell me] [something?] interesting
+    ~[I] [fun fact|fact]
+    ~[I] interesting
+
+%[&Welcome](200)
+    ~[Hello] [there?]
+    ~[sorry?] ~[Hello] 
+    ~[tell me] ~[Hello]
+    ~[Hello?] ~[Waddup?] ~[Person?]
+
+%[&Recommend](200)
+    ~[sorry?] ~[can you] [Recommend] [please?] ~[Person?]?
+    What ~[can you] [Recommend]?
+    ~[Recommend]
+    [please?] [recommend] [something|anything]
+    ~[tell me] what you have
+    ~[tell me] [Recommend]
+    ~[I] [Recommend]
+
+%[&Help](200)
+    ~[sorry?] ~[can you] ~[Help] [please?]?
+    What ~[can you] ~[Help]?
+    ~[sorry?] ~[tell me] help [please?]?
+    ~[sorry?] ~[tell me] functions [please?]?
+    ~[sorry?] ~[tell me] help [please?]?
+    ~[sorry?] ~[tell me] functions [please?]?
+    ~[tell me] skills
+    ~[tell me] functions
+    [please?] help ~[tell me]
+    ~[I] help
+    ~[I] skills
+    ~[I] functions
