@@ -12,6 +12,9 @@ from monitor import Monitor
 SEP = os.path.sep
 
 class MetaEngine:
+    """ Creates a meta-engine that can handles user messages
+        and chooses an appropriate action from a dict 
+    """
 
     def __init__(self):
         """ initialises Meta-engine with all necessary components
@@ -33,7 +36,8 @@ class MetaEngine:
                                 "I'm sorry, I didn't understand that."]}
 
     def handle_message(self, text, user_id = "test"):
-        """ Gets classification of user input and chooses appropriate return message
+        """ Gets classification of user input 
+            and chooses appropriate return message
 
         Args:
             text (str): Input message from User
