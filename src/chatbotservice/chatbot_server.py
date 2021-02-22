@@ -18,8 +18,8 @@ from monitor import Monitor
 from concurrent import futures
 
 import grpc
-#from grpc_health.v1 import health_pb2
-#from grpc_health.v1 import health_pb2_grpc
+from grpc_health.v1 import health_pb2
+from grpc_health.v1 import health_pb2_grpc
 
 
 class ChatbotService(demo_pb2_grpc.ChatbotServiceServicer):
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     
     service = ChatbotService()
     demo_pb2_grpc.add_ChatbotServiceServicer_to_server(service, server)
-    #health_pb2_grpc.add_HealthServicer_to_server(service, server)
+    health_pb2_grpc.add_HealthServicer_to_server(service, server)
 
     logging.info("listening on port: " +port)
     server.add_insecure_port('[::]:'+port)

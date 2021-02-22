@@ -23,7 +23,7 @@ def request(text):
     # NOTE(gRPC Python Team): .close() is possible on a channel and should be
     # used in circumstances in which the with statement does not fit the needs
     # of the code.
-    with grpc.insecure_channel('localhost:50051') as channel:
+    with grpc.insecure_channel('localhost:9090') as channel:
         stub = demo_pb2_grpc.ChatbotServiceStub(channel)
         response = stub.getChatbotMessage(demo_pb2.chatbotRequest(message=text, user_id = "2cent"))
     return response
@@ -49,5 +49,5 @@ def get_rec(id, products = ["test"]):
 if __name__ == "__main__":
     """used only for quick local testing
     """
-    request("HI")
-    print(request("Hi"))
+    answer = request("Tell me a fun fact")
+    print(answer)
