@@ -19,4 +19,4 @@
 PATH=$PATH:$GOPATH/bin
 protodir=../../pb
 
-protoc --go_out=plugins=grpc:genproto -I $protodir $protodir/demo.proto
+protoc -I $protodir --go_out=genproto --go-grpc_out=genproto $protodir/demo.proto

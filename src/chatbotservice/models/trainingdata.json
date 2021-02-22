@@ -1,0 +1,4009 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind can you show me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind can you tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind could you show me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind could you show me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind show me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind tell me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind tell me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Be so kind would you tell me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you show me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you show me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you show me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you show me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you show me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you tell me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you tell me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you tell me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you tell me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Can you tell me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Could you show me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Could you show me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Could you show me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Could you show me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Could you tell me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Could you tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Could you tell me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Dear can you tell me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Dear could you tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Dear show me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Dear show me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Dear would you show me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Dear would you tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Do you minds can you tell me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Do you minds tell me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Do you minds tell me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Do you minds would you show me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Excuse me can you tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Excuse me can you tell me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Excuse me could you show me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Excuse me could you tell me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Excuse me tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Excuse me tell me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Excuse me would you tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I like fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I like interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I like some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I like some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I need fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I need interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I need some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I need some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I want fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I want fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I want interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I want some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I want some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "I want some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Like fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Like interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Like some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Like some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Like some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Need fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Need interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Need some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Need some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Need some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Show me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Tell me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Want fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Want fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Want interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Want some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you show me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you show me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you show me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you show me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you show me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you show me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you show me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you tell me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you tell me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you tell me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you tell me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "Would you tell me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "be so kind can you show me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "be so kind show me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "be so kind tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "be so kind tell me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "be so kind tell me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you show me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you show me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you show me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you show me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you show me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you tell me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you tell me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you tell me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you tell me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "can you tell me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you show me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you show me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you show me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you show me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you show me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you show me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you tell me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you tell me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "could you tell me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "dear show me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "dear tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "dear would you show me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "do you minds can you tell me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "do you minds could you show me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "do you minds could you show me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "do you minds could you tell me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "do you minds show me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "do you minds tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "do you minds would you show me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "excuse me show me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "excuse me tell me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "excuse me tell me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "excuse me would you show me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i like fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i like interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i like some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i like some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i need fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i need fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i need interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i need some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i need some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i need some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i want fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i want some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i want some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "i want some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "like fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "like interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "like some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "like some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "like some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "need fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "need fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "need interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "need some fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "need some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me fun fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "show me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "sorry could you tell me something interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "sorry show me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "sorry show me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "sorry tell me interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "sorry tell me interesting?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "sorry tell me something interesting please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "tell me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "tell me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "tell me fun fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "tell me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "tell me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "want fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "want fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "want some fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "want some interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you show me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you show me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you show me interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you show me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you tell me fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you tell me fact please?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you tell me fact?"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you tell me fun fact"
+      },
+      {
+        "entities": [],
+        "intent": "Fun_Fact",
+        "text": "would you tell me something interesting"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": ""
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Afternoon"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Ahoy"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Ahoy Bro"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Be so kind Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Be so kind Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Be so kind Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Be so kind Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Bro"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Can you show me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Can you show me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Can you show me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Can you tell me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Can you tell me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Can you tell me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Can you tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you show me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you show me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you show me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you show me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you show me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you show me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you tell me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Could you tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Dear Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Dear Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Do you minds Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Do you minds Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Do you minds Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Dude"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Excuse me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Excuse me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Excuse me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Excuse me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Good day to you"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Good day to you Shop"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Good morning"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Good morning Bro"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Greetings What's up"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Greetings bot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Greetings there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hai Good day to you bot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hai How are you doing"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hai there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hello Chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hello there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hey Ahoy"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hey Ahoy machine"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hey Chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hey Good morning Shop"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hey there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Heyyo Dude"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Heyyo How are you doing Person"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Heyyo What's up machine"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Heyyo machine"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Heyyo there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hi Dude"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hi Good day to you bot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hi How are you doing Sir"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hi Owner"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hi Shop"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Hi there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "How are you doing"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "How is it hanging"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "How is it hanging Person"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Machine"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Man"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Person"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Show me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Show me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Show me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Show me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Show me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Show me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Sir"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Sorry Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Sorry Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Sorry Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Sorry Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Sorry Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Tell me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Tell me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Tell me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Tell me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "What's up Man"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "What's up Person"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you show me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you show me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you show me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you show me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you show me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you tell me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you tell me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you tell me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you tell me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "Would you tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "afternoon"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "afternoon bot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "ahoy"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "ahoy Chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "be so kind Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "be so kind Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "be so kind Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "be so kind Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "be so kind Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "can you show me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "can you show me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "can you show me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "can you tell me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "can you tell me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "can you tell me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "can you tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you show me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you show me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you show me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you show me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you show me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you tell me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you tell me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you tell me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you tell me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "could you tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "dear Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "dear Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "do you minds Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "do you minds Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "do you minds Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "dude"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "excuse me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "excuse me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "good day to you"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "good day to you Man"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "good day to you Person"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "good morning Chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "good morning bot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "greetings How are you doing Bro"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "greetings there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hai Chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hai Good day to you"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hai Good morning"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hai How are you doing"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hai What's up"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hai there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hello Afternoon"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hello Good morning machine"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hello How are you doing"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hello there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hey How is it hanging"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hey How is it hanging Owner"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hey Shop"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hey there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "heyyo Person"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "heyyo there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hi Afternoon machine"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hi Good day to you"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hi What's up"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "hi there"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "how are you doing"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "how are you doing Chatbot"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "how are you doing Person"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "how is it hanging Bro"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "how is it hanging Man"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "machine"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "man"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "shop"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "show me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "show me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "show me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "show me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "show me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "sir"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "sorry Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "sorry Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "sorry Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "sorry Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "tell me Greetings"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "tell me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "tell me Hello"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "tell me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "tell me Heyyo"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "what's up"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "would you show me Hai"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "would you tell me Hey"
+      },
+      {
+        "entities": [],
+        "intent": "Welcome",
+        "text": "would you tell me Hi"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me would you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear could you Recommend Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind could you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds would you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry can you Recommend please Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "need Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds can you Recommend please Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry could you Recommend Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry could you Recommend Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry could you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry could you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "would you Recommend please Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "can you show me what you have"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind could you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind could you Recommend please Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear can you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds would you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind would you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds could you Recommend please Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds would you Recommend Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear could you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend please Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me can you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me could you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me can you Recommend Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry could you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind would you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear can you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry could you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry would you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "i want some Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry could you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you tell me what you have"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear can you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Could you Recommend please Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "would you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds can you Recommend Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me could you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me can you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds could you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind would you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry can you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind can you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me would you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind would you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear can you Recommend please Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear can you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind would you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "recommend anything"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me would you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind can you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "can you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "would you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "can you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear can you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry could you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "goods"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me would you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear can you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear would you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds would you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry could you Recommend please machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds can you Recommend Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "tell me what you have"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds would you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me could you Recommend please Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds can you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry can you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Could you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind would you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry can you Recommend Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry would you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry would you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me would you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me can you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear could you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear can you Recommend please Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Need some Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend please Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Could you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry could you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend please machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "would you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me would you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds would you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry could you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind would you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear can you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "I want Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds could you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear could you Recommend Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind would you Recommend please Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "want Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me would you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds can you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "would you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend please Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me can you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Recommend me"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds could you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "would you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "could you Recommend please Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend please Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me would you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me would you Recommend please machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind can you Recommend Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry could you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "can you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me would you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me can you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds could you Recommend please Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind would you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "want some Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds would you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind would you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds would you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind can you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear could you Recommend please machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "would you Recommend please Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear could you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me can you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "i like Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry can you Recommend Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me can you Recommend Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me could you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry would you Recommend machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear could you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds could you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "buy"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds can you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "could you Recommend please bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me can you Recommend please Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Can you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind would you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "recommend me"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds could you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds can you Recommend Dude?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear can you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds can you Recommend please Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear would you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds can you Recommend please Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry can you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me could you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Do you minds would you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "can you Recommend please?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind can you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear can you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds can you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry can you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Dear can you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear could you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me could you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry can you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry would you Recommend please Man?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Sorry can you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind can you Recommend please Shop?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear could you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds could you Recommend please Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "need some Recommend"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Would you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me would you Recommend Person?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me would you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Be so kind can you Recommend?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear would you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "excuse me would you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear could you Recommend Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "recommend something"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "be so kind could you Recommend bot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me could you Recommend please machine?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "Excuse me would you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear could you Recommend please Bro?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "do you minds could you Recommend Sir?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "sorry could you Recommend please Chatbot?"
+      },
+      {
+        "entities": [],
+        "intent": "Recommend",
+        "text": "dear could you Recommend Owner?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Be so kind could you assist please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Be so kind show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Be so kind show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Be so kind would you tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you assist?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you show me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you tell me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Can you tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you aid please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you show me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Could you tell me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Dear could you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Dear show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Dear show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Dear would you show me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Dear would you tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds can you aid please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds can you assist?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds can you help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds can you show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds can you show me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds could you show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds tell me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Do you minds tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me can you aid please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me can you tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me could you help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me show me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Excuse me would you show me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Help could you tell me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Help show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Help tell me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Help would you show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I like functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I like help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I like skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I like some functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I like some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I like some skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I need help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I need some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I want functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I want help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "I want skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Like functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Like help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Like some functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Like some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Like some skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Need functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Need help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Need skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Need some functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Need some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Please help can you tell me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Please help show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Please help tell me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Show me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Show me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Show me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Sorry can you assist?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Sorry could you aid please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Sorry show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Sorry tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Tell me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Tell me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Tell me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Want functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Want help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Want skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Want some functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Want some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Want some skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "What can you help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "What could you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "What could you assist?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "What could you help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "What would you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Would you assist?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "Would you show me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "be so kind can you help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "be so kind can you tell me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "be so kind can you tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "be so kind could you tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "be so kind tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "be so kind tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "can you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "can you assist please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "can you show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "can you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "can you tell me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "can you tell me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "can you tell me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you show me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you show me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "could you tell me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "dear show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds can you show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds can you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds can you tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds can you tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds could you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds could you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds could you tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds would you assist please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "do you minds would you tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "excuse me can you assist please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "excuse me could you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "excuse me show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "excuse me show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "excuse me tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "excuse me tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "help can you show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "help could you show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "help show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "help tell me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i like help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i like some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i need functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i need help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i need skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i need some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i want functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i want help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i want skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "i want some skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "like functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "like help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "like skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "like some functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "like some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "need functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "need help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "need skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "need some functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "need some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "please help could you show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "please help could you tell me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "please help show me"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "show me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "show me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "show me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "show me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry can you show me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry can you show me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry could you aid please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry could you assist?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry tell me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry tell me functions?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "sorry would you tell me functions please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "tell me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "tell me help please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "tell me help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "tell me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "want functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "want skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "want some help"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "what can you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "what can you help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "what could you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "what would you aid?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "what would you assist?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "what would you help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "would you aid please?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "would you help?"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "would you show me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "would you show me skills"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "would you tell me functions"
+      },
+      {
+        "entities": [],
+        "intent": "Help",
+        "text": "would you tell me functions?"
+      }
+    ],
+    "entity_synonyms": [],
+    "lookup_tables": [],
+    "regex_features": []
+  }
+}

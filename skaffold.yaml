@@ -42,6 +42,9 @@ build:
     context: src/loadgenerator
   - image: adservice
     context: src/adservice
+  - image: chatbotservice
+    context: src/chatbotservice
+      #context: github.com/JaL11/micromicroservice_CSE_WS20
   tagPolicy:
     gitCommit: {}
   local:
