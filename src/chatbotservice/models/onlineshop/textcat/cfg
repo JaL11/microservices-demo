@@ -1,10 +1,10 @@
 {
   "exclusive_classes":true,
   "labels":[
-    "Fun_Fact",
     "Welcome",
+    "Recommend",
     "Help",
-    "Recommend"
+    "Fun_Fact"
   ],
   "pretrained_vectors":null,
   "pretrained_dims":null
